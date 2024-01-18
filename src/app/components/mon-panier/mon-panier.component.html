@@ -1,0 +1,116 @@
+<div class="container">
+    <div class="row m-3">
+
+<div class="col-6" >
+    <div class="card m-b-20">
+        <div class="card-header ">
+            <div class="card-title">Panier de Shopping</div>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Produit</th>
+                            <th>Prix</th>
+                            <th>Quantité</th>
+                            <th>Total</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                            <p *ngIf="myPanier?.length==0">
+                                Panier vide veuillez ajouter des Produits.
+                            </p>
+                        
+                        <tr *ngFor="let p of myPanier">
+                            <td>{{p.name}}</td>
+                            <td><span>{{p.price}}</span></td>
+                            <td class="w-7 "><input type="number" #val (keyup)="changeQuantity(val,p)" class="form-control text-center h-30" placeholder="{{p.quantite}}"></td>
+                            <td><span>{{p.price * p.quantite}}</span></td>
+                            <td><a class="btn btn-danger btn-sm text-white" data-toggle="tooltip" (click)="deleteProductToCart(p.id)" data-original-title="Delete"><i class="bi bi-trash"></i></a></td>
+                        </tr>
+                       
+                    </tbody>
+                </table>
+            </div>
+            <!-- <form class="text-left  product-cart m-t-20 mb-0">
+                <div class="row">
+                    <div class="col-6"><input class="productcart form-control" type="text" placeholder="Coupon Code"></div>
+                    <div class="col-6"><a href="#" class="btn btn-primary btn-md">Apply</a></div>
+                </div>
+            </form> -->
+        </div>
+    </div>
+</div>
+<div class="col-4 " *ngIf="userFormGroup">
+    <div class="card " *ngIf="myPanier.length !=0">
+        <div class="card-header ">
+            <div class="card-title">Commendes Clients</div>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered mb-0">
+                    <tbody>
+                        <tr>
+                            <td>Nombre de produits commender</td>
+                            <td class="text-right">{{myPanier.length}}</td>
+                        </tr>
+                        <!-- <tr>
+                            <td><span>Totals</span></td>
+                            <td class="text-right text-muted"><span>$792.00</span></td>
+                        </tr> -->
+                        <tr>
+                            <td><span>Montant total des produits</span></td>
+                            <td><h2 class="price text-right mb-0">{{sommeProduct()}}</h2></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr>
+            <form [formGroup]="userFormGroup" (ngSubmit)="save()">
+                <div class="m-3">
+                    <h3>Type de Payment:</h3>
+                    <div class="  form-check form-check-inline">
+                        <input type="radio" class="form-check-input" formControlName="typePayment" id="credit"  value="CACHE">
+                        <label for="credit" class="form-check-label">Cache</label>
+                    </div>
+                    <div class="  form-check form-check-inline">
+                        <input type="radio" class="form-check-input" id="mobile" formControlName="typePayment"  value="MOBILE">
+                        <label for="mobile" class="form-check-label">O. Money</label>
+                    </div>
+                  
+                    <div class="  form-check form-check-inline">
+                        <input type="radio" class="form-check-input" id="visa" formControlName="typePayment"  value="VISA">
+                        <label for="visa" class="form-check-label">Carte Visa</label>
+                    </div>
+                </div>
+                <hr>
+                <div class="m-3">
+                    <label for="nom"><span style="color: red;font-size:25px;">*</span>Nom Complet:</label>
+                    <input id="nom" type="text" formControlName="nom" class="form-control">
+                </div>
+                <div class="m-3">
+                    <label for="tel"><span style="color: red;font-size:25px;">*</span>Tèlephone:</label>
+                    <input id="tel" type="text" formControlName="tel" class="form-control">
+                </div>
+                <div class="m-3" *ngIf="userFormGroup.value.typePayment=='VISA'">
+                    <label for="code"><span style="color: red;font-size:25px;">*</span>Code de la carte visa:</label>
+                    <input id="code" formControlName="codeCarte" type="text" class="form-control">
+                </div>
+                <div class="m-3">
+                    <label for="adresse"><span style="color: red;font-size:25px;">*</span>Adresse de Livraison:</label>
+                    <input id="adresse" type="text" class="form-control" formControlName="adresse">
+                </div>
+                <div class="text-center">
+                    <input class="btn btn-primary btn-block btn-lg mt-2 m-b-20 " [disabled]="!userFormGroup.valid" type="submit" value="Valider le Panier">
+                <input class="btn btn-secondary btn-block btn-lg mt-2" routerLink="/" value="Continuer d'Acheter">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+    </div>
+
+</div>

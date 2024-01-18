@@ -1,0 +1,340 @@
+{
+  "users": [
+    {
+      "nom": "Souleymane Diallo",
+      "tel": "612468243",
+      "codeCarte": "",
+      "typePayment": "CACHE",
+      "dateCommender": 1705332401271,
+      "adresse": "Hamdalaye",
+      "listeCommendeEffectuer": [
+        {
+          "id": 3,
+          "name": "Robe pour Dame Rouge ",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+          "price": 300000,
+          "categorie": "dress",
+          "image": "assets/images/products/dress1.jpeg",
+          "favori": true,
+          "quantite": 1
+        },
+        {
+          "id": 2,
+          "name": "Tshirt Blanc ",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+          "price": 400000,
+          "categorie": "Tshirt",
+          "image": "assets/images/m1.jpeg",
+          "favori": false,
+          "quantite": 1
+        },
+        {
+          "id": 1,
+          "name": "Montre",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+          "price": 160000,
+          "categorie": "accessories",
+          "image": "assets/images/w4.jpeg",
+          "favori": true,
+          "quantite": 1
+        },
+        {
+          "id": 8,
+          "name": "Chaussure pour Dame M2",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+          "price": 500000,
+          "categorie": "shoe",
+          "image": "assets/images/products/hills2.jpeg",
+          "favori": false,
+          "quantite": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "nom": "Abdoul Diallo",
+      "tel": "624323420",
+      "codeCarte": "",
+      "typePayment": "CACHE",
+      "dateCommender": 1705333750368,
+      "adresse": "Matam",
+      "listeCommendeEffectuer": [
+        {
+          "id": 4,
+          "name": "Robe pour Dame Noire ",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+          "price": 200000,
+          "categorie": "dress",
+          "image": "assets/images/products/dress2.jpeg",
+          "favori": true,
+          "quantite": 1
+        },
+        {
+          "id": 2,
+          "name": "Tshirt Blanc ",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+          "price": 400000,
+          "categorie": "Tshirt",
+          "image": "assets/images/m1.jpeg",
+          "favori": false,
+          "quantite": 1
+        },
+        {
+          "id": 1,
+          "name": "Montre",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+          "price": 160000,
+          "categorie": "accessories",
+          "image": "assets/images/w4.jpeg",
+          "favori": true,
+          "quantite": 1
+        },
+        {
+          "id": 8,
+          "name": "Chaussure pour Dame M2",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+          "price": 500000,
+          "categorie": "shoe",
+          "image": "assets/images/products/hills2.jpeg",
+          "favori": false,
+          "quantite": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "nom": "Diallo",
+      "tel": "612468243",
+      "codeCarte": "",
+      "typePayment": "CACHE",
+      "dateCommender": 1705334147581,
+      "adresse": "Hamdalaye",
+      "listeCommendeEffectuer": [
+        {
+          "id": 4,
+          "name": "Robe pour Dame Noire ",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+          "price": 200000,
+          "categorie": "dress",
+          "image": "assets/images/products/dress2.jpeg",
+          "favori": true,
+          "quantite": 1
+        },
+        {
+          "id": 2,
+          "name": "Tshirt Blanc ",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+          "price": 400000,
+          "categorie": "Tshirt",
+          "image": "assets/images/m1.jpeg",
+          "favori": false,
+          "quantite": 1
+        },
+        {
+          "id": 1,
+          "name": "Montre",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+          "price": 160000,
+          "categorie": "accessories",
+          "image": "assets/images/w4.jpeg",
+          "favori": true,
+          "quantite": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "nom": "Diallo",
+      "tel": "612468243",
+      "codeCarte": "",
+      "typePayment": "CACHE",
+      "dateCommender": 1705334612413,
+      "adresse": "Hamdalaye",
+      "listeCommendeEffectuer": [
+        {
+          "id": 4,
+          "name": "Robe pour Dame Noire ",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+          "price": 200000,
+          "categorie": "dress",
+          "image": "assets/images/products/dress2.jpeg",
+          "favori": true,
+          "quantite": 1
+        },
+        {
+          "id": 2,
+          "name": "Tshirt Blanc ",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+          "price": 400000,
+          "categorie": "Tshirt",
+          "image": "assets/images/m1.jpeg",
+          "favori": false,
+          "quantite": 1
+        },
+        {
+          "id": 1,
+          "name": "Montre",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+          "price": 160000,
+          "categorie": "accessories",
+          "image": "assets/images/w4.jpeg",
+          "favori": true,
+          "quantite": 1
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Montre",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+      "price": 160000,
+      "categorie": "accessories",
+      "image": "assets/images/w4.jpeg",
+      "favori": true,
+      "quantite": 1
+    },
+    {
+      "id": 2,
+      "name": "Tshirt Blanc ",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+      "price": 400000,
+      "categorie": "Tshirt",
+      "image": "assets/images/m1.jpeg",
+      "favori": false,
+      "quantite": 1
+    },
+    {
+      "id": 3,
+      "name": "Robe pour Dame Rouge ",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+      "price": 300000,
+      "categorie": "dress",
+      "image": "assets/images/products/dress1.jpeg",
+      "favori": true,
+      "quantite": 1
+    },
+    {
+      "id": 4,
+      "name": "Robe pour Dame Noire ",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+      "price": 200000,
+      "categorie": "dress",
+      "image": "assets/images/products/dress2.jpeg",
+      "favori": true,
+      "quantite": 1
+    },
+    {
+      "id": 5,
+      "name": "Costume pour Homme",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+      "price": 100000,
+      "categorie": "formal",
+      "image": "assets/images/products/blazer1.jpeg",
+      "favori": false,
+      "quantite": 1
+    },
+    {
+      "id": 6,
+      "name": "Costume pour Femme",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+      "price": 300000,
+      "categorie": "formal",
+      "image": "assets/images/products/blazer2.jpeg",
+      "favori": true,
+      "quantite": 1
+    },
+    {
+      "id": 7,
+      "name": "Chaussure pour Dame M1",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+      "price": 200000,
+      "categorie": "shoe",
+      "image": "assets/images/products/hills1.jpeg",
+      "favori": true,
+      "quantite": 1
+    },
+    {
+      "id": 8,
+      "name": "Chaussure pour Dame M2",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+      "price": 500000,
+      "categorie": "shoe",
+      "image": "assets/images/products/hills2.jpeg",
+      "favori": false,
+      "quantite": 1
+    },
+    {
+      "id": 9,
+      "name": "Chaussure pour Homme",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+      "price": 400000,
+      "categorie": "shoe",
+      "image": "assets/images/products/shoe1.jpg",
+      "favori": true,
+      "quantite": 1
+    },
+    {
+      "id": 10,
+      "name": "Jupe model 1",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+      "price": 30000,
+      "categorie": "dress",
+      "image": "assets/images/products/skt1.jpeg",
+      "favori": false,
+      "quantite": 1
+    },
+    {
+      "id": 11,
+      "name": "Jupe model 2",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+      "price": 40000,
+      "categorie": "dress",
+      "image": "assets/images/products/skt2.jpeg",
+      "favori": true,
+      "quantite": 1
+    },
+    {
+      "id": 12,
+      "name": "Pantalon Homme m1",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+      "price": 40000,
+      "categorie": "jeans",
+      "image": "assets/images/products/pants1.jpg",
+      "favori": false,
+      "quantite": 1
+    },
+    {
+      "id": 13,
+      "name": "Pantalon Homme m2",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+      "price": 40000,
+      "categorie": "jeans",
+      "image": "assets/images/products/pants2.jpeg",
+      "favori": true,
+      "quantite": 1
+    },
+    {
+      "id": 14,
+      "name": "Habille pour Enfants",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+      "price": 40000,
+      "categorie": "informal",
+      "image": "assets/images/c1.jpg",
+      "favori": false,
+      "quantite": 1
+    },
+    {
+      "id": 15,
+      "name": "Costume pour Homme M3",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores unde, molestias commodi doloremque ratione qui, enim nemo nobis odit natus ea. Corporis omnis consequatur consequuntur ducimus consectetur? Nobis, ad sint.",
+      "price": 40000,
+      "categorie": "formal",
+      "image": "assets/images/m2.jpg",
+      "favori": false,
+      "quantite": 1
+    }
+  ]
+}

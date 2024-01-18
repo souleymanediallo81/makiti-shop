@@ -1,0 +1,55 @@
+<div class="container">
+    <h2>Historique des Commendes: {{telephone}}</h2>
+    <form class="d-flex m-3">
+        <input class="form-control me-2" type="search" [(ngModel)]="keyword" name="keyword" placeholder="Numero de telephone ....." aria-label="Search">
+        <button class="btn btn-outline-success" (click)="searchCommendeByPhoneNumber()" ><i class="bi bi-search"></i></button>
+      </form>
+
+      <div class="row">
+        <div class="col-md-12 col-lg-12">
+            <div class="card" *ngIf="listCommendeUser">
+                <div class="card-header">
+                    <h3 class="card-title">Basic Table</h3>
+                </div>
+                <div class="table-responsive">
+                    <table class="table card-table table-vcenter text-nowrap">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nom</th>
+                                <th>Adresse de Livraison</th>
+                                <th>Type Payment</th>
+                                <th>Date</th>
+                                <th>Description CMD </th>
+                                <th>Montant Total CMD</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let cmd of listCommendeUser">
+                                <th scope="row">{{cmd.id}}</th>
+                                <td>{{cmd.nom}}</td>
+                                <td>{{cmd.adresse}}</td>
+                                <td>{{cmd.typePayment}}</td>
+                                <td>{{cmd.dateCommender | date}}</td>
+                                <td>
+                                    <tr *ngFor="let desc of cmd['listeCommendeEffectuer']">
+                                        <td>{{desc.quantite}} |</td>
+                                        <td>{{desc.name}} |</td>
+                                        <td>{{desc.price}}</td>
+
+                                    </tr>
+                                </td>
+                                <td>
+                                    {{sommeListCommende(cmd)}}
+                                </td>
+                                   
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- table-responsive -->
+            </div>
+        </div>
+    </div>
+
+</div>

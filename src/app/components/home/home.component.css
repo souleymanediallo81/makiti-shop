@@ -1,0 +1,25 @@
+.my-caroussel img{
+    height: 700px;
+}
+
+.my-grid{
+    display: grid;
+    
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* .my-category img{
+    height: 150px;
+    width: 100px;
+} */
+
+.active-cat{
+    padding-top: 15px;
+    border-bottom: 5px solid grey;
+}
+
+.product-image img{
+        align-items: center;
+        height: 250px;
+        width: 100%;
+}
